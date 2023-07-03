@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css?family=monsterrat:1000');
+*{
+	box-sizing:boder-box;
+	margin:0;
+	padding:0;
+}
+li,a{
+	font-family: "montserrat", sans-serif;
+	font-weight:500;
+	font-size: 16px bold;
+	color: white;
+	text-decoration:none;
+}
+header{
+	top: 0;
+	height:40px;
+	width:100%;
+	background-color:#24252a;
+	position:fixed;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 30px 10%;
+}
+.logo{
+  cursor:pointer;
+  margin-right:auto;
+  width: 200px;
+  height: auto;
+}
+
+/*menu tags*/
+.nav_links {
+	list-style:none;
+}
+.nav_links li{	
+	display:inline-block;
+	padding:0px 20px;
+}
+.nav_links li a{
+	transition:all 0.2s ease 0s;
+}
+.nav_links li a:hover{
+	color:#0088a9;
+}	   
+   /*end nav bar*/
+
+
+   /*begin homepage*/
+.hero{
+    margin-top: 40px;
+	height:60%;
+	width:100%;
+}
+.content{
+    color: white;
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform: translatey(-50%);
+}
+h1{
+    color:white;
+    font-size: 75px;
+    margin: 0px;
+    font-weight: 200px;
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:#fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 123%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: skyblue;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 82.5%;
+    right: -22%;
+}
+.newslatter form input:last-child:hover{
+    color:black;
+    border: 2px solid white;
+    cursor: pointer;
+}
+span{
+    color: skyblue;
+}
+.about{
+    width: 100px;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    columns:#191919 ;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    width: 50;
+    font-size: 20px;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 1s;
+}
+button:hover{
+    color: black;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.services{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px opx;
+}
+
+.title h2{
+    color:white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 375px;
+    width: 255px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.crard i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+.card h5{
+    margin-bottom:15% ;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+}
+.card .button{
+    font-size: 20px;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 4px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 1s;
+    width: 50px;
+}
+.card .button:hover{
+    color: black;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.contact-me .button-two{
+    font-size: 20px;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 1s;
+}
+.contact-me .button-two:hover{
+    color: black;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+   /*end homepage*/
+
+
+
+
+   /*start service page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.my-services{
+    margin-top: 10%;
+    font-family: 'releway';
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    background: #fafafa;
+}
+.my-services:hover{
+    background-color: #E3F4F4;
+    
+}
+.my-services h1{
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    color: black;
+}
+.row h3{
+    color: black;
+}
+.service-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 1000px;
+    align-items: center;
+    min-height: 400px;
+}
+.service-content:hover{
+    
+    border: 2px solid #D2E9E9;
+    cursor: pointer;
+
+}
+.row{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+}
+.row h3{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: skyblue;
+}
+.row p{
+    text-align: justify;
+}
+.row:nth-child(1):hover{
+    background: linear-gradient(45deg,
+                                rgba(225,28,8,0.8)0%,
+                                rgba(225,0,82,0.8)100%)
+                                url('C:\Users\ThinKpad\OneDrive\Desktop\web 3\home\img2\smd.jpeg');
+    background-size:cover ;
+}
+   /*end service page*/
+   
+
+   /*start contact page*/
+
+/* Style inputs */
+.formcontainer input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+   
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .contactcontainer {
+      width:auto;
+      height:700px;
+    border-radius: 5px;
+    background-color:  #f2f2f2;
+    padding: 10px;
+    margin-top:10%;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+    padding: 30px;
+    border-radius: 5px;
+
+  }
+  
+  /* Create two columns that float next to eachother */
+  .formcontainer{
+    float: right;
+    width: 40%;
+    margin-top: 6px;
+    padding: 20px;
+    margin-right:20px;
+    margin-top:-37%;
+    
+  }
+  /*contact links*/
+  .link:hover{
+      text-align:left;
+  }
+  
+  .img{
+  width:53%;
+  height:50%;
+  float:left;
+  }
+  .image{
+  margin-top:3%;
+  float:left;
+  }
+  .contactme{
+    position:absolute;
+    top: 400px;
+    margin-left: 300px;
+    color:white;
+    font-size:50px;
+    
+  }
+   /*end contact page*/
+
+
+   /*start about page*/
+
+  .myabout img{
+    margin-top: 4%;
+    height: 50%;
+    width: 50%;
+    
+  }
+  .myabout-text{
+    width: 750px;
+    color: black;
+}
+.mymain{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.myabout-text h2{
+    color: #191919;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+}
+.myabout-text h5{
+    columns:#191919 ;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+.myabout-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.mycontact-me{
+    width: 80%;
+    margin-top: -2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 300px;
+    background: #F9F5F6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 4%;
+}
+.mycontact-me h2{
+    margin-bottom: 2%;
+    color: skyblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.mycontact-me p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+   /*end about page*/
+
+
+   /*for footer*/
+
+.footer{
+	background-color:#24262b;
+	padding:70px 0;
+}
+.row3{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.container3{
+	max-width:1170px;
+	background-color:gray;
+	margin:auto;
+}
+ul.list3{
+	list-style:none;
+}
+.footer-col{
+	width:25%;
+	padding:1 6px;
+}
+.footer-col h4{
+	font-size:20px;
+	font-weight:500;
+	text-transform:capitalize;
+	margin-bottom:35px;
+	position:relative;
+	left:40px;
+}
+.footer-col h4::before{fe
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	background-color:#e91e63;
+	height:2px;
+	box-sizing:boder-box;
+	width:50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom:10px;
+}
+
+.footer-col ul li a{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+	color:#bbbbbb;
+	display:block;
+	transition:all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:#ffffff;
+	padding-left:8px;
+}	
+.footer-col .social-links a{
+	display:inline-block;
+	height:40px;
+	width:40px;
+	background-color:rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align:center;
+	line-height:40px;
+	color:#ffffff;
+	transition:all 0.4s ease;
+}
+.footer-col .social-links a:hover{
+	color:#24262b;
+	background-color:#ffffff;
+}
+/*responsive*/
+
+/*end footer*/
